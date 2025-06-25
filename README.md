@@ -63,6 +63,7 @@ Base URL: `http://localhost:8080/api/employees`
 ```bash
 git clone https://github.com/your-username/employee-management.git
 cd employee-management
+```
 
 2. **Create MySQL Database**
 
@@ -70,7 +71,7 @@ Make sure MySQL is running. Then, create a database using the following SQL:
 
 ```sql
 CREATE DATABASE employee_db;
-
+```
 3. **Update `application.properties`**
 
 Go to the file:  
@@ -82,26 +83,28 @@ and update it with your MySQL credentials:
 spring.datasource.url=jdbc:mysql://localhost:3306/employee_db
 spring.datasource.username=your_mysql_username
 spring.datasource.password=your_mysql_password
-
+```
 # JPA Configuration
+```
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
-
+```
 4. **Run the Application**
 
 Use the terminal to run the Spring Boot app:
 
 ```bash
 ./mvnw spring-boot:run
-
+```
 ## 🧪 Step 5: Test the APIs
 
 Once the application is running, you can test the REST endpoints using Postman, curl, or any API testing tool.
 
-**Base URL**:  
+**Base URL**:
+```
 http://localhost:8080/api/employees
-
+```
 ### ✅ Example Requests
 
 ```http
@@ -126,7 +129,7 @@ Content-Type: application/json
 }
 
 DELETE /api/employees/1
-
+```
 ## 📁 Project Folder Structure
 employee-management/
 ├── src/
