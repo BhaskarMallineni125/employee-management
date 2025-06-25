@@ -46,6 +46,7 @@ Base URL: `http://localhost:8080/api/employees`
   "lastName": "Doe",
   "email": "john.doe@example.com"
 }
+```
 
 ## 🚀 How to Run the Project Locally
 
