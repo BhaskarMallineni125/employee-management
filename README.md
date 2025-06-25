@@ -131,6 +131,7 @@ Content-Type: application/json
 DELETE /api/employees/1
 ```
 ## 📁 Project Folder Structure
+```
 employee-management/
 ├── src/
 │   ├── main/
@@ -146,6 +147,7 @@ employee-management/
 │   │       └── ...
 ├── pom.xml
 └── README.md
+```
 
 ## 🙋‍♂️ Author
 
